@@ -42,11 +42,16 @@ body {
 
 .input {
     background: transparent;
-    border: none;
+    border: 2px dotted transparent;
+    border-radius: 0.5rem;
     padding: 1rem 0.8rem;
     outline: none;
     font-size: 1.4rem;
     width: 95%;
+}
+
+.input:focus {
+    border: 2px dotted #0a0a83;
 }
 
 .button {
@@ -93,8 +98,9 @@ body {
 }
 
 .section .address{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #0a0a0a;
+    margin-top: 5px;
 }
 
 .details .horizontal{
