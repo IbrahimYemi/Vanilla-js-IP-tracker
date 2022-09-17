@@ -63,5 +63,17 @@ json(`https://geo.ipify.org/api/v2/country,city?apiKey=${apiKey}&ipAddress=${INP
     TIME_ZONE.innerHTML = data.location.timezone;
     LOCATION.innerHTML = data.location.country;
     ISP.innerHTML = data.isp;
+
+    // // map code
+    // var map = L.map('map').setView([0, 0], 1);
+    // var nexrad = L.tileLayer.wms("http://mesonet.agron.iastate.edu/cgi-bin/wms/nexrad/n0r.cgi", {
+    // layers: 'nexrad-n0r-900913',
+    // format: 'image/png',
+    // transparent: true,
+    // attribution: "Weather data © 2012 IEM Nexrad"
+    // });
+    // L.marker([data.location.lat, data.location.lng]).addTo(map)
+    // .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
+    // .openPopup();
 });
 
