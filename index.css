@@ -29,7 +29,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    height: 30vh;
+    height: 35vh;
 }
 
 .section_input {
@@ -79,9 +79,10 @@ body {
     position: absolute;
     width: 80%;
     border-radius: 1rem;
-    height: 6.5rem;
-    top: 25vh;
+    height: 7.5rem;
+    top: 27vh;
     padding: 1.2rem;
+    z-index: 1;
 }
 
 .section {
@@ -111,7 +112,7 @@ body {
 }
 
 .map {
-    background: green;
     width: 100vmax;
     height: 70vh;
+    background-image: linear-gradient(red,blue,green,violet,indigo) no-repeat;
 }
